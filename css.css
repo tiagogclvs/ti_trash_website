@@ -1,0 +1,94 @@
+/*
+Quando quiser mudar a fonte:
+
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("BebasNeue-Regular.ttf") format("embedded-opentype"),
+        url("BebasNeue-Regular.ttf") format("opentype");
+}
+*/
+
+map{
+    
+}
+
+body {
+    font-family: Calibri;
+}
+
+html {
+    font-family: Deansgate;
+}
+
+caption {
+    display: block;
+    line-height: 3em;
+    width: 100%;
+    -webkit-align-items: stretch;
+    border: 1px solid #eee;
+}
+
+.flexy {
+    display: block;
+    width: 90%;
+    border: 1px solid #eee;
+    max-height: 320px;
+    overflow: auto;
+}
+
+.flexy thead {
+    display: -webkit-flex;
+    -webkit-flex-flow: row;
+}
+
+.flexy thead tr {
+    padding-right: 15px;
+    display: -webkit-flex;
+    width: 100%;
+    -webkit-align-items: stretch;
+}
+
+.flexy tbody {
+    display: -webkit-flex;
+    height: 50px;
+    overflow: auto;
+    -webkit-flex-flow: row wrap;
+}
+
+.flexy tbody tr {
+    display: -webkit-flex;
+    width: 100%;
+}
+
+.flexy tr td {
+    width: 15%;
+}
+
+tr {
+    height: 50px;
+}
+
+tbody {
+    height: 50px;
+}
+
+thead {
+    height: 50px;
+}
+
+
+}
+
+.submit {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+}
